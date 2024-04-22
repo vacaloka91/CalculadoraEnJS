@@ -1,5 +1,5 @@
 const btn=document.querySelectorAll('.btn');
-let display=document.getElementById('display');
+const display=document.getElementById('display');
 btn.forEach(boton => {
     boton.addEventListener('click', function(){
         //console.log(boton.textContent);
@@ -10,7 +10,6 @@ btn.forEach(boton => {
             display.style.fontSize='46px';
             return;
         }
-
 
         if(boton.id==='IdCe'){
             display.textContent='0';
@@ -23,11 +22,11 @@ btn.forEach(boton => {
                 }else{
                     display.textContent=display.textContent.slice(0,-1);
                     return;};
-        };
+        };//Cierre de llave de 'boton.id===idborrar'
         if(boton.id==='IdIgual'){
             display.textContent=eval(display.textContent);
             return;
-        }
+        };
 
         if(display.textContent==='0'){
             display.textContent=botonApretado;
@@ -35,7 +34,6 @@ btn.forEach(boton => {
             display.textContent+=botonApretado;
         };
 
-       
     });
 });//forEach
 
