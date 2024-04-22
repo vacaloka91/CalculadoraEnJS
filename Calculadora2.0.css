@@ -1,0 +1,187 @@
+/* :root{
+    --backgroundColor:rgb(63, 165, 63);
+} */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el cuerpo de la página ocupe toda la altura visible del viewport */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    background-color: #aecc8a;
+    /* background-color: var(--backgroundColor); */
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#display{
+    display: grid;
+    font-family: 'Signika Negative', sans-serif;    
+    font-size: 50px;
+    color:white;
+    margin-bottom: 0px;
+    border: solid;
+    border-color: #f4f8ed;
+    background-color: #455f2c;
+    height:120px ;
+    width:760px ;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 620px;
+
+}#display:hover{
+    border-radius:40px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 10px;
+    background-color: #6f9744;
+}
+.btn{
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    margin: 10px;
+    background-color: #91b764;
+    border-radius: 30px;
+    height: 130px;
+    width: 130px;
+    border: solid 2px;
+
+}
+.btn:hover{
+    border-radius: 40px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    background-color: rgb(160, 201, 111)   ;
+    border: 10px;
+
+}
+#IdMultiplicar{
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdMultiplicar:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+
+}
+
+#IdDividir{
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdDividir:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+#IdSumar{
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdSumar:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+#IdRestar{
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdRestar:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+#IdPunto{
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdPunto:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+#IdBorrar{
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdBorrar:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+#IdIgual{
+    height: 130px;
+    width: 284px;
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdIgual:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+#IdCe{
+    height: 130px;
+    width: 284px;
+    background-color: #6f9744;
+    border: 3px solid;
+}
+#IdCe:hover{
+    border-radius:15px;
+    box-shadow: 0.5px 1px 1rem 4px black;
+    transition: box-shadow 0.1s ease;
+    border: 3px solid;
+    background-color: #6f9744;
+}
+
+/* #E5232Fff */
+#Conteiner{
+    position: absolute;
+    top: 200px;
+}
+#ConteinerColors{
+    position:relative;
+    background-color: white;
+    top:400px;
+    left:580px;
+    height: 40px;
+    width: 80px;
+    /* border: solid 2px; */
+    cursor: pointer;
+}
+#changeColorRed{
+    position:relative;
+    background-color:  #E5232Fff;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 0px ;
+    
+}
+#changeColorPurple{
+    position:absolute;
+    background-color:  #ce26c0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    justify-content: right;
+    border: 0px;
+}
